@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--open tag of form needs the addition of "ACTION" so that after  submitting the filled form, it will go to the designated page -->
+   <form action="INDEX HOMEPAGE.html">
+      <h2>working on forms</h2>
+      <input type="text" value="" id="text" placeholder="full name"><br>
+      <input type="email" value="" placeholder="email@dash.com"><br>
+      <input type="password" id="password" value="" maxlength="8" placeholder="myPassword">
+      <input type="submit" value="send">
+   </form>
+<!--input has type, value, id, placeholder-->
+<br>
+
+<p>
+  <form action="page 2.html">
+    <h3>STATE OF ORIGIN</h3>
+    <label for="state of origin"> state of origin:</label>
+   <Select name="feedback" id="">
+      <option value="ekiti">ekiti </option>
+      <option value="ondo">ondo </option>
+      <option value="ekiti">ekiti </option>
+      <input type="submit" value="send">
+      <!--slect tag should have NAME, and ID attribute-->
+   </Select>
+  </form>
+</p>
+<br>
+
+  <form action=""  enctype="multipart/form-data">
+    <h2>hotel feedback form</h2>
+    <p>Please answer the following questions</p>
+    <input type="radio" id="male" name="tolu">
+    <strong> <label for="male">MALE</label> </strong> <br>
+
+    <input type="radio" id="female" name="tolu">
+    <strong> <label for="female">FEMALE</label> </strong> <br>
+
+    <input type="radio" id="other" name="tolu">
+    <strong> <label for="other">OTHERS</label> </strong> <br>
+    <!--for the clicks to flow to the other the input tag must have type, id, and name; name given must be thesame with the other radio inputs -->
+  </form>
+<br>
+<form action="">
+<p3>
+  <h2>Nationality</h2>
+  <input type="checkbox"  id="nigeria">
+  <label for="nigeria">NIGERIAN</label> <br>
+
+  <input type="checkbox" id="benin republic" >
+  <label for="BENIN REPUBLIC">BENINOIS</label> <br>
+
+  <input type="checkbox" id="TOGO">
+  <label for="TOGO">TOGOLESE</label>
+</form>
+</p3>
+<br> <br>
+<h3>Any other messages for us?</h3>
+<label for="comment"> comment:</label>
+<textarea  id="area" cols="20" rows="5" placeholder="your message to us" required> </textarea >
+<br>
+
+<input type="submit" value="send">
+<br>
+
+<figure>
+  <img src="C:\Users\User\Desktop\DESIGNING WEBSITE\TRAINING PERSONAL SITE\IMAGES\TOLU IMAGEnn.jpg" alt="OGimage">
+  <figcaption>fig.1 - OGimage</figcaption>
+</figure>
+
+<details>
+  <summary>what is estate management</summary>
+  
+  <meter value="10" min="0" max="10"></meter>
+
+</details>
+<a href="mailto:tolulopefmt@gmail.com">email me</a>
+<pre>
+  the lord is with me, he will kep me in all His ways He will not 
+  leave me until He fuflils that which he has spoken 
+</pre>
+
+<form action="">
+
+<label for="username"> username</label>
+<input type="text" id="username" minlength="8" maxlength="12" required>
+
+<br>
+<label for="password">password</label> 
+<input type="password" id="password" minlength="6" maxlength="10" required>
+<br>
+
+<label for="phone"> phone no:</label>
+<input type="tel" id="email" placeholder="+234-000-000-0000" pattern=" [0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}"> <br>
+
+<label for="bday">birthdate:</label>
+<input type="date" id="quantity" min="0" max="99" value="1">
+
+<br>
+
+<label for="Mr."> Mr.</label>
+<input type="radio" id="Mr" value="Mr" name="title">
+<label for="Ms."> Ms.</label>
+<input type="radio" id="Mr" value="Mr" name="title">
+<label for="PhD."> PhD.</label>
+<input type="radio" id="Mr" value="Mr" name="title">
+
+<label for="file">file:</label>
+<input type="file" id="file" accept="image/jpeg, image/png, video/mp4">
+<br>
+<input type="reset">
+<input type="submit">
+</form>
+</body>
+</html>
